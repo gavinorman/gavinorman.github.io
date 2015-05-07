@@ -1,0 +1,23 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 200px; /* bottom = footer height */
+}
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+
+#footer-box1 {
+	width: 600px;
+	color:grey;
+	margin: 0px auto;
+}
