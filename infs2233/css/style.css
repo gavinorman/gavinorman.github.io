@@ -17,9 +17,17 @@ body {
 }
 
 #footer-box1 {
-	width: 600px;
+	width: 300px;
 	color:grey;
 	margin: 0px auto;
+    float:left;
+}
+
+#footer-box2 {
+    width: 300px;
+    color:grey;
+    margin: 0px auto;
+    float:right;
 }
 
 #blog_container {
