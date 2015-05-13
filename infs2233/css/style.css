@@ -21,3 +21,10 @@ body {
 	color:grey;
 	margin: 0px auto;
 }
+
+#blog_container {
+    text-align: left;
+    width:600px;
+    margin:0 auto;
+    padding-bottom: 30px;
+}
