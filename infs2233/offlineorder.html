@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Offline Order</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- Our CSS file -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Load navbar.html -->
+    <script type="text/javascript">
+        $("document").ready(function() {
+            $('#navbar').load('navbar.html');
+            $('#footer').load('footer.html');
+        });
+    </script>
+
+    <style type="text/css" media="print">
+        .dontprint
+        { display: none; }
+    </style>
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar" style="min-height:150px;background-image:url('img\\header-edit.jpg');background-size:auto 100%">
+        <!-- 
+
+        Content loaded dynamically from navbar.html
+
+        Edit that file to change navigation bar
+
+        -->
+    </nav>
+
+    <!-- Blog Section -->
+    <section id="offlineorder" class="light-section" style="padding-top:150px">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Offline Order</h1>
+
+                    <div id="blog_container" style="">
+                        <h2>Instructions</h2>
+                        Fill this form out, print it, then mail or fax it to us at<br />
+                        Mail: [ADDRESS]<br />
+                        Fax: [FAX NUMBER]<br />
+                        <br />
+
+                        <h3>Payment Information</h3>
+                        Your name: <input type="text"><br />
+                        Your address: <input type="text"><br />
+                        Method of payment:  <select>
+                          <option value="volvo">Credit Card</option>
+                          <option value="saab">Debit Card</option>
+                          <option value="mercedes">Bank Transfer</option>
+                          <option value="audi">Cash Deposit</option>
+                        </select> <br />
+                        
+                        Type of credit card: <select>
+                          <option value="volvo">Mastercard</option>
+                          <option value="saab">Visa</option>
+                        </select> <br />
+
+                        Card Holder's name: <input type="text"><br />
+                        Account number: <input type="text"><br />
+                        Expiration date: <select>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                        </select>
+                        <select>
+                          <option value="2015">2015</option>
+                          <option value="2016">2016</option>
+                          <option value="2017">2017</option>
+                          <option value="2018">2018</option>
+                          <option value="2019">2019</option>
+                        </select> <br />
+
+                        <h3>Shipping Information</h3>
+                        Name: <input type="text"><br />
+                        Address: <input type="text"><br />
+
+                        <h3>Items</h3>
+                        <table border="1">
+                            <th>Item #</th>
+                            <th>Description</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <tr>
+                                <td style="width:100px">
+                                   &nbsp; <br /><br />
+                                </td>
+                                <td style="width:400px">
+                                    
+                                </td>
+                                <td style="width:80px">
+                                    
+                                </td>
+                                <td style="width:50px">
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br /><br />
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br /><br />
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br /><br />
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        </table>
+
+                        Total balance due: <input type="text" /><br /><br />
+
+                        <input type="checkbox" checked disabled> Free Shipping on all orders
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer" class="dontprint">
+        
+    </div>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
