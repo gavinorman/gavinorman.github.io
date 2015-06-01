@@ -19,8 +19,8 @@ body {
 }
 
 .image-bg-fluid-height {
-	background: url('../img/background.jpg') no-repeat center center scroll;
-    padding: 90px 0;
+	background: url('../img/imagemap2.jpg') no-repeat center center scroll;
+    padding: 0px 0;
 }
 
 .image-bg-fixed-heightone {
@@ -45,7 +45,7 @@ body {
 section {
     background-color: #ffffff;
     padding: 0px 0;
-    height: 450px;
+    height: 500px;
 }
 
 .section-heading {

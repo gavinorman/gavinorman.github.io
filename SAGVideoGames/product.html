@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body id="top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -68,14 +68,71 @@
         </div>
         <!-- /.container -->
     </nav>
-    <!-- Page Content -->
-    <div class="container" >
-        <h1 class="page-header">Our Products!
-                    <small>Have a peek...</small>
-                </h1>
-                <br>
-        <div class="row">
-            <div class="col-md-12">
+    
+    <!-- Begin Body -->
+<div class="container">
+    <div class="row">
+            <div class="col col-sm-3">
+                <div id="sidebar">
+                <ul class="nav nav-stacked">
+                    <li><h3 class="highlight">Consoles <i class="glyphicon glyphicon-certificate pull-right"></i></h3></li>
+                    <li><a href="#playstation">Playstation 4</a></li>
+                    <li><a href="#xbox">Xbox One</a></li>
+                    <li><a href="#pc">PC</a></li>
+                    <li><a href="#top">back to top</a></li>
+                    <!-- <li><h4>BEST SELLER</h4>
+                        <div class="thumbnail">
+                            <img src="img/item5.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$54.99</h4>
+                                <h4><a href="#">MOE CHRONICLE</a>
+                                </h4>
+                                <p>The game is a dungeon crawl game where the player is required to navigate through maps containing enemies. Battles are turn-based, and involve attacking parts of enemy monster girls so that their clothes fall off; eventually at the end of the battle.</p>
+                            </div><button class="pull-right btn btn-success">Buy Now!</button>
+                            <div class="ratings">
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul><!-- 
+                <div class="accordion" id="accordion2">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                Accordion
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="accordion-body collapse in">
+                            <div class="accordion-inner">
+                              <p>There is a lot to be said about RWD.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                    Accordion
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                  <p>Use @media queries or utility classes to customize responsiveness.</p>
+                                </div>
+                            </div>
+                        </div>
+                </div> -->
+               </div>
+            </div>  
+            <div class="col col-sm-9">
+              <div class="panel">
+              <h1>Products</h1>
+        
                 <div class="row carousel-holder">
                     <div class="col-md-12">
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -105,10 +162,16 @@
                     </div>
 
                 </div>
-
+                <hr id="playstation">
+                
+                 <div class="row">
+                  <div class="col col-sm-12">
+                    <img src="img/ps4.jpg" class="img-responsive">
+                  </div>   
+                </div>
+                <hr>
                 <div class="row">
-
-                    <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="col-sm-6 col-lg-6 col-md-6">
                         <div class="thumbnail">
                             <img src="img/item1.jpg" alt="">
                             <div class="caption">
@@ -131,7 +194,7 @@ The game is set on a small island somewhere in Japan called “Yumegashima,” w
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="col-sm-6 col-lg-6 col-md-6">
                         <div class="thumbnail">
                             <img src="img/item2.jpg" alt="">
                             <div class="caption">
@@ -152,9 +215,21 @@ The game is set on a small island somewhere in Japan called “Yumegashima,” w
                                 </p>
                             </div>
                         </div>
+                        <button class="pull-right btn btn-md btn-success"><a>Browse more...</a></button>
                     </div>
+                </div>
+                
+                <hr id="xbox">
+                
+                 <div class="row">
+                  <div class="col col-sm-12">
+                    <img src="img/xbox.jpg" class="img-responsive">
+                  </div>   
+                </div>
+                <hr>
+                <div class="row">
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="col-sm-6 col-lg-6 col-md-6">
                         <div class="thumbnail">
                             <img src="img/item3.jpg" alt="">
                             <div class="caption">
@@ -176,7 +251,7 @@ The game is set on a small island somewhere in Japan called “Yumegashima,” w
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="col-sm-6 col-lg-6 col-md-6">
                         <div class="thumbnail">
                             <img src="img/item4.jpg" alt="">
                             <div class="caption">
@@ -196,9 +271,21 @@ The game is set on a small island somewhere in Japan called “Yumegashima,” w
                                 </p>
                             </div>
                         </div>
+                        <button class="pull-right btn btn-md btn-success"><a>Browse more...</a></button>
                     </div>
+                </div>
+              
+                <hr id="pc">
+                
+                 <div class="row">
+                  <div class="col col-sm-12">
+                    <img src="img/pc.jpg" class="img-responsive">
+                  </div>   
+                </div>
+                <hr>
+                <div class="row">
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="col-sm-6 col-lg-6 col-md-6">
                         <div class="thumbnail">
                             <img src="img/item5.jpg" alt="">
                             <div class="caption">
@@ -220,7 +307,7 @@ The game is set on a small island somewhere in Japan called “Yumegashima,” w
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="col-sm-6 col-lg-6 col-md-6">
                         <div class="thumbnail">
                             <img src="img/item6.jpg" alt="">
                             <div class="caption">
@@ -244,16 +331,13 @@ However, a dragon survived. And its name is “Kouryuu Irvan.” Seeking the pow
                                 </p>
                             </div>
                         </div>
+                        <button class="pull-right btn btn-md btn-success"><a>Browse more...</a></button>
                     </div>
-
                 </div>
-
             </div>
-
-        </div>
-
+        </div> 
     </div>
-    <!-- /.container -->
+</div>
 
 
     <!-- Footer -->
@@ -295,6 +379,8 @@ However, a dragon survived. And its name is “Kouryuu Irvan.” Seeking the pow
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/scripts.js"></script>
 
 </body>
 
