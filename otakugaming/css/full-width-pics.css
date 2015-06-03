@@ -19,22 +19,22 @@ body {
 }
 
 .image-bg-fluid-height {
-	background: url('../img/imagemap2.jpg') no-repeat center center scroll;
+	background: url('../images/imagemap2.jpg') no-repeat center center scroll;
     padding: 0px 0;
 }
 
 .image-bg-fixed-heightone {
-	background: url('../img/blog1.jpg') no-repeat center center scroll;
+	background: url('../images/blog1.jpg') no-repeat center center scroll;
     height: 500px;
 }
 
 .image-bg-fixed-heighttwo {
-    background: url('../img/blog2.jpg') no-repeat center center scroll;
+    background: url('../images/blog2.jpg') no-repeat center center scroll;
     height: 500px;
 }
 
 .image-bg-fixed-heightthree {
-    background: url('../img/course.jpg') no-repeat center center scroll;
+    background: url('../images/course.jpg') no-repeat center center scroll;
     height: 370px;
 }
 
