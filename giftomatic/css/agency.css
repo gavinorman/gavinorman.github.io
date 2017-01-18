@@ -20,6 +20,7 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
+    color: #ccc;
 }
 
 p.large {
@@ -54,6 +55,48 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+/*pre {    
+    white-space: pre-wrap;                 /* CSS3 browsers  */
+    white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+    white-space: -pre-wrap;                /* Opera 4 thru 6 */
+    white-space: -o-pre-wrap;              /* Opera 7 and up */
+    word-wrap: break-word;                 /* IE 5.5+ and up */
+    overflow: auto;
+    width: 700px;
+    padding: 0.1em 0.5em 0.3em 0.7em;
+    border-left: 11px solid #222222;
+    margin: 1.7em 0 1.7em 0.3em;
+    text-align: left;
+    font-family: "Courier New", Courier, monospace, sans-serif;
+    line-height: 1.6em;
+    font-size: 11px;
+    color: #ccc;
+}*/
+
+.title {
+    font-size: 15px;
+}
+
+.para {
+    font-size: 12px;
+}
+
+.var {
+    color: #7fe22a;
+}
+
+.sys {
+    color: #52d9d0;
+}
+
+.url {
+    color: #1e67ed;
+}
+
+.darkred {
+    background-color: #65221d;
 }
 
 .img-centered {
@@ -297,7 +340,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 165px;
         padding-bottom: 200px;
     }
 
@@ -334,7 +377,7 @@ section h3.section-subheading {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 section h4.section-subheading {
@@ -343,12 +386,12 @@ section h4.section-subheading {
     color: #fff;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -368,12 +411,20 @@ section#api {
     background-repeat: no-repeat;
 }
 
+section#docs {
+    background-color: #65221d;
+}
+
+section#docs .section-heading {
+    color: #d6e1e0;
+}
+
 section#api .section-heading {
     color: #d6e1e0;
 }
 
 section#policy {
-    background-color: #65221d;
+    background-color: #222;
 }
 
 section#policy .section-heading {
@@ -392,20 +443,20 @@ section#signup .section-heading {
 }
 
 section#signup .form-group {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 section#signup .form-group input,
 section#signup .form-group textarea {
-    padding: 20px;
+    padding: 10px;
 }
 
 section#signup .form-group input.form-control {
-    height: auto;
+    height: 40px;
 }
 
 section#signup .form-group textarea.form-control {
-    height: 236px;
+    height: 200px;
 }
 
 section#signup .form-control:focus {
